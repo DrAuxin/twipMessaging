@@ -4,7 +4,7 @@ package com.company;
  * Created by pt696 on 1/30/17.
  */
 public class Message {
-    public Message (String number, String text, long time)
+    public Message (String number, String text, String time)
     {
         phone = number;
         md = text;
@@ -12,7 +12,7 @@ public class Message {
     }
     public String phone;
     public String md;
-    public long clock;
+    public String clock;
 
 
 }
